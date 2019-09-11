@@ -1,5 +1,7 @@
 exports.forms = [
     'ultra',
     'alolan',
-    'school'
+    'school',
+    'female',
+    'male'
 ];
