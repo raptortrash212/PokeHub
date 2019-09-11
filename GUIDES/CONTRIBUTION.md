@@ -42,7 +42,7 @@ Copy paste this into your file you are working on. See the // bits? Those are ti
 
 Due to our strict system (not our fault >.<) we have certain rulesets you must follow. One in particular involves words such as "**can't**". If a word is hyphenated, you must place a **\\** **before** the hypen (e.g **can\\'t**). This is called **escaping out** the hypen.
 
-The other tips needed are in the file itself.
+The other tips needed are in the **template** file.
 
 # Finished the File
 
