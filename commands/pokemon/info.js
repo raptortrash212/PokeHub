@@ -45,11 +45,26 @@ class InfoCommand extends Command {
         } else { pokemonName = argss[0]; }
 
         const pokemonNameLower = pokemonName.toLowerCase();
+        let r;
+        let PID;
+
+        // Female or Male Pokemon (needs to be seperate)
+        if (pokemonName[pokemonName.length] == 'f' || pokemonName[pokemonName.length] == 'm') {
+            if (pokemonName[pokemonName.length] == 'm') {
+                r = await get(`https://pokeapi.co/api/v2/pokemon/${pokemonNameLower}-m`);
+                const pokeObj = r.body;
+                PID = pokeObj.id;
+            } else {
+                r = await get(`https://pokeapi.co/api/v2/pokemon/${pokemonNameLower}-f`);
+                const pokeObj = r.body;
+                PID = pokeObj.id;
+            }
+        }
 
         // Pokemon ID for the actual file fetching
-        const r = await get(`https://pokeapi.co/api/v2/pokemon/${pokemonNameLower}`);
+        r = await get(`https://pokeapi.co/api/v2/pokemon/${pokemonNameLower}`);
         const pokeObj = r.body;
-        let PID = pokeObj.id;
+        PID = pokeObj.id;
 
         if (PID.toString().length == 1) PID = `00${PID}`;
         else if (PID.toString().length == 2) PID = `0${PID}`;
