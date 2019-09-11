@@ -23,6 +23,8 @@ This is only to make our job easier and allows us to approve your chanegs a lot 
 
 **Note**: once you reach 20+ contributions total, we will allocate you a role within our Discord Server.
 
+You can follow the official guide [here](https://github.com/Strikerrr/PokeHub/blob/master/GUIDES/CONTRIBUTION.md)
+
 
 # Credits
 
