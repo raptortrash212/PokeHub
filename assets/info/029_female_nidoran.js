@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 29,
+    'species': '**Nidoran♀** (**ニドラン♀** *Nidoran♀*)',
+    'types' : 'Poison',
+    'pokedexEntry': 'Nidoran♀ has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.\n\n*Dex entry from ORAS*',
+    'genderRatio': { M: null, F: 1.00 },
+    'catchRate': { integer: 235, percentage: '41.3%' },
+    'baseStats': { hp: 55, atk: 47, def: 52, spAtk: 40, spDef: 40, spd: 41 },
+    'abilities': { 0: 'Poison Point *OR* Rivalry', 'H': 'Hustle' },
+    'height': 0.4,
+    'weight': 15.4,
+    'colorHex': '#E3EEFF',
+    'colorHexShiny': '#FFDAFF',
+    'color': 'Very Pale Blue',
+    'colorShiny': 'Very Pale Magenta',
+    'evolvesTo': { species: 'Nidorina', level: '16', triggeredBy: 'Levelling Up' },
+    'eggGroups': ['Monster', 'Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'http://play.pokemonshowdown.com/sprites/xyani/nidoranf.gif',
+    'gifShiny': 'http://play.pokemonshowdown.com/sprites/xyani-shiny/nidoranf.gif',
+    'legendary': false,
+    'mythical': false
+};
