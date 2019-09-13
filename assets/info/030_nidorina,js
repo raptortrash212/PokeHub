@@ -1,0 +1,24 @@
+exports.info = {
+    'number': 30,
+    'species': '**Nidorina** (**ニドリーナ** *Nidorina*)',
+    'types' : 'Poison',
+    'pokedexEntry': '	When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.\n\n*Dex entry from ORAS*',
+    'genderRatio': { M: 0.00, F: 1.00 },
+    'catchRate': { integer: 120, percentage: '24.9%' },
+    'baseStats': { hp: 70, atk: 62, def: 67, spAtk: 55, spDef: 55, spd: 56 },
+    'abilities': { 0: 'Poison Point *OR* Rivalry', 'H': 'Hustle' },
+    'height': 0.8,
+    'weight': 20.0,
+    'colorHex': 'Use a colour selector and find the lightest colour.', 
+    'colorHexShiny': 'Same as above.',
+    'color': 'Use colorhexa to get a description', // https://www.colorhexa.com/
+    'colorShiny': 'Same here',
+    'evolvesFrom': { species: 'NidoranF', level: '16', triggeredBy: 'Levelling Up' },
+    'evolvesTo': { species: 'Nidoqueen', level: null, triggeredBy: 'Item Use (Moon Stone)' },
+    'eggGroups': ['Undiscovered'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'http://play.pokemonshowdown.com/sprites/xyani/nidorina.gif',
+    'gifShiny': 'http://play.pokemonshowdown.com/sprites/xyani-shiny/nidorina.gif',
+    'legendary': false, // true OR false
+    'mythical': false
+};
