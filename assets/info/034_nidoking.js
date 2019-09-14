@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 31,
+    'species': '**Nidoking** (**ニドキング** **Nidokingu**)',
+    'types' : 'Poison | Ground',
+    'pokedexEntry': '	Nidoking\'s thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.\n\n*Dex entry from ORAS*',
+    'genderRatio': { M: 1.00, F: 0.00 },
+    'catchRate': { integer: 45, percentage: '11.9%' },
+    'baseStats': { hp: 81, atk: 92, def: 77, spAtk: 85, spDef: 75, spd: 85 },
+    'abilities': { 0: 'Poison Point *OR* Rivalry', 'H': 'Sheer Force' },
+    'height': 1.4,
+    'weight': 136.7,
+    'colorHex': '#E6A3DC',
+    'colorHexShiny': '#80B4FF',
+    'color': 'Very Soft Magenta',
+    'colorShiny': 'Very Light Blue',
+    'evolvesFrom': { species: 'Nidorino', level: null, triggeredBy: 'Item Use (Moon Stone)' },
+    'eggGroups': ['Monster', 'Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/nidoking.gif',
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/nidoking.gif',
+    'legendary': false,
+    'mythical': false
+};
