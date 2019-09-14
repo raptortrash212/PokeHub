@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 31,
+    'species': '**Nidoqueen** (**ニドクイン** **Nidokuin**)',
+    'types' : 'Poison | Ground',
+    'pokedexEntry': 'Nidoqueen\'s body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.\n\n*Dex entry from ORAS*',
+    'genderRatio': { M: 0.00, F: 1.00 },
+    'catchRate': { integer: 45, percentage: '11.9%' },
+    'baseStats': { hp: 90, atk: 82, def: 87, spAtk: 75, spDef: 85, spd: 76 },
+    'abilities': { 0: 'Poison Point *OR* Rivalry', 'H': 'Sheer Force' },
+    'height': 1.3,
+    'weight': 60.0,
+    'colorHex': '#A7D4F5',
+    'colorHexShiny': '#B3C994',
+    'color': 'Very Soft Blue',
+    'colorShiny': 'Slightly Desaturated Green',
+    'evolvesFrom': { species: 'Nidorina', level: null, triggeredBy: 'Item Use (Moon Stone)' },
+    'eggGroups': ['Undiscovered'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/nidoqueen.gif',
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/nidoqueen.gif',
+    'legendary': false,
+    'mythical': false
+};
