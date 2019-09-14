@@ -1,6 +1,6 @@
 exports.info = {
     'number': 47,
-    'species': '**Parasect** (**パラセクト** **Parasect**)',
+    'species': '**Parasect** (**パラセクト** *Parasekuto*)',
     'types' : 'Bug | Grass',
     'pokedexEntry': 'The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving. Its poisonous spores are also used in traditional medicine. Apparently, spores produced in Alola are not of very good quality.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

@@ -1,6 +1,6 @@
 exports.info = {
     'number': 28,
-    'species': '**Alolan Sandslash** (**サンドパン** **Sandpan**)',
+    'species': '**Alolan Sandslash** (**サンドパン** *Sandopan*)',
     'types' : 'Ice | Steel',
     'pokedexEntry': 'It runs across snow-covered plains at high speeds. It developed thick, sharp claws to plow through the snow. A long, long time ago, it lived in the desert. With its sharp claws fully extended, it can climb right up an iceberg without slipping.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

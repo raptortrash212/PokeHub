@@ -1,6 +1,6 @@
 exports.info = {
     'number': 18,
-    'species': '**Mega Pidgeot** (**ピジョット** **Pigeot**)',
+    'species': '**Mega Pidgeot** (**ピジョット** *Pijotto*)',
     'types' : 'Normal | Flying',
     'pokedexEntry': 'With its muscular strength now greatly increased, it can fly continuously for two weeks without resting.\n\n*Dex entry from LGP/LGE*',
     'genderRatio': { M: 0.5, F: 0.5 },

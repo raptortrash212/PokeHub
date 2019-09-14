@@ -1,6 +1,6 @@
 exports.info = {
     'number': 23,
-    'species': '**Ekans** (**アーボ** **Arbo**)',
+    'species': '**Ekans** (**アーボ** *Aabo*)',
     'types' : 'Poison',
     'pokedexEntry': 'By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests. The eggs of bird Pokémon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

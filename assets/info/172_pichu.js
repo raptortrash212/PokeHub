@@ -1,6 +1,6 @@
 exports.info = {
     'number': 172,
-    'species': '**Pichu** (**ピチュー** **Pichu**)',
+    'species': '**Pichu** (**ピチュー** *Pichuu*)',
     'types' : 'Electric',
     'pokedexEntry': 'It still can\'t use electricity well. When it\'s surprised or excited, it discharges electricity unintentionally. It has electric sacs in its cheeks. When they\'re fully charged, Pichu plays very energetically.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

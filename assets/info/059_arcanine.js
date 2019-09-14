@@ -1,6 +1,6 @@
 exports.info = {
     'number': 59,
-    'species': '**Arcanine** (**ウインディ** **Windie**)',
+    'species': '**Arcanine** (**ウインディ** *Uindi*)',
     'types' : 'Fire',
     'pokedexEntry': 'Legends tell of its fighting alongside a general and conquering a whole country. There are so many old tales about them that they\'re called legendary Pokémon, but there are way more of them around than you\'d expect.\n\n*Dex entry from GAME*',
     'genderRatio': { M: 0.75, F: 0.25 },

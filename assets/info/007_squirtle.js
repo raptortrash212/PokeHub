@@ -1,6 +1,6 @@
 exports.info = {
     'number': 7,
-    'species': '**Squirtle** (**ゼニガメ** Zenigame)',
+    'species': '**Squirtle** (**ゼニガメ** *Zenigame*)',
     'types' : 'Water',
     'pokedexEntry': 'Squirtle\'s shell is not merely used for protection. The shell\'s rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.875, F: 0.125 },

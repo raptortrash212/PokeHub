@@ -1,6 +1,6 @@
 exports.info = {
     'number': 27,
-    'species': '**Sandshrew** (**サンド** **Sand**)',
+    'species': '**Sandshrew** (**サンド** *Sando*)',
     'types' : 'Ground',
     'pokedexEntry': 'It lives in areas of limited rainfall. When danger approaches, it curls up into a ball to protect its soft stomach. When its skin gets wrinkled from moisture, it heads for a volcano. It lies flat on a spot with a lot of geothermal heat and dries itself out.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

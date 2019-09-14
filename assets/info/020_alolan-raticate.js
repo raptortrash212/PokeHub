@@ -1,6 +1,6 @@
 exports.info = {
     'number': 20,
-    'species': '**Alolan Raticate** (**ラッタ** **Ratta**)',
+    'species': '**Alolan Raticate** (**ラッタ** *Ratta*)',
     'types' : 'Dark | Normal',
     'pokedexEntry': 'It has an incredibly greedy personality. Its nest is filled with so much food gathered by Rattata at its direction, it can\'t possibly eat it all. It commands a nest of Rattata. Different nests don\'t get along, whipping up severe fights over feeding grounds.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

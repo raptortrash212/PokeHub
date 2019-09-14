@@ -1,6 +1,6 @@
 exports.info = {
     'number': 9,
-    'species': '**Mega Blastoise** (**カメックス** Kamekkusu)',
+    'species': '**Mega Blastoise** (**カメックス** *Kamekkusu*)',
     'types' : 'Water',
     'pokedexEntry': 'The cannon on its back is as powerful as a tank gun. Its tough legs and back enable it to withstand the recoil from firing the cannon.\n\n*Dex entry from LGP/LGE*',
     'genderRatio': { M: 0.875, F: 0.125 },

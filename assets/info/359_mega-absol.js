@@ -1,6 +1,6 @@
 exports.info = {
     'number': 359,
-    'species': '**Mega Absol** (**アブソル** **Abusoru**)',
+    'species': '**Mega Absol** (**アブソル** *Abusoru*)',
     'types' : 'Dark',
     'pokedexEntry': 'Normally, it dislikes fighting, so it really hates changing to this form for battles. It converts the energy from Mega Evolution into an intimidating aura. Fainthearted people expire from shock at the sight of it.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

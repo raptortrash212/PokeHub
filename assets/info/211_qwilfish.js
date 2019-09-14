@@ -1,6 +1,6 @@
 exports.info = {
     'number': 211,
-    'species': '**Qwilfish** (**ハリーセン** **Harysen**)',
+    'species': '**Qwilfish** (**ハリーセン** *Hariisen**',
     'types' : 'Water | Poison',
     'pokedexEntry': 'Qwilfish sucks in water, inflating itself. This Pokémon uses the pressure of the water it swallowed to shoot toxic quills all at once from all over its body. It finds swimming somewhat challenging.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.5, F: 0.5 },

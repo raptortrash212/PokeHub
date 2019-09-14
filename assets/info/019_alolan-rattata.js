@@ -1,6 +1,6 @@
 exports.info = {
     'number': 19,
-    'species': '**Alolan Rattata** (**コラッタ** **Koratta**)',
+    'species': '**Alolan Rattata** (**コラッタ** *Koratta*)',
     'types' : 'Dark | Normal',
     'pokedexEntry': 'It shows no interest in anything that isn\'t fresh. If you take it shopping with you, it will help you pick out ingredients. Night after night, they sneak into people\'s homes seeking food. A massive outbreak of them has become an issue of public concern.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

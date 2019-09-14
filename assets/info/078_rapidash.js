@@ -1,6 +1,6 @@
 exports.info = {
     'number': 78,
-    'species': '**Rapidash** (**ギャロップ** **Gallop**)',
+    'species': '**Rapidash** (**ギャロップ** *Gyaroppu*)',
     'types' : 'Fire',
     'pokedexEntry': 'Rapidash usually can be seen casually cantering in the fields and plains. However, when this Pokémon turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.5, F: 0.5 },

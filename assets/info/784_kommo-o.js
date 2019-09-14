@@ -1,6 +1,6 @@
 exports.info = {
     'number': 784,
-    'species': '**Kommo-o** (**ジャラランガ** **jyararanga**)',
+    'species': '**Kommo-o** (**ジャラランガ** *Jyararanga*)',
     'types' : 'Dragon | Fighting',
     'pokedexEntry': 'When it howls after finishing off its prey, the metallic sounds of its celebrating comrades can be heard from all around. It battles valiantly with its fists, which are armored in steel scales. Kommo-o specializes in uppercuts.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

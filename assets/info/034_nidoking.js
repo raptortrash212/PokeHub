@@ -1,6 +1,6 @@
 exports.info = {
     'number': 31,
-    'species': '**Nidoking** (**ニドキング** **Nidokingu**)',
+    'species': '**Nidoking** (**ニドキング** *Nidokingu*)',
     'types' : 'Poison | Ground',
     'pokedexEntry': '	Nidoking\'s thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 1.00, F: 0.00 },

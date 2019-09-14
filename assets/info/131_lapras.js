@@ -1,6 +1,6 @@
 exports.info = {
     'number': 131,
-    'species': '**Lapras** (**ラプラス** **Lapurasu**)',
+    'species': '**Lapras** (**ラプラス** *Rapurasu*)',
     'types' : 'Water | Ice',
     'pokedexEntry': 'It likes swimming around with people on its back. In the Alola region, it\'s an important means of transportation over water. They\'ve been so cherished that there\'s now an overabundance. The fish Pokémon population has declined in waters with too many Lapras.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

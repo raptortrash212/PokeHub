@@ -1,6 +1,6 @@
 exports.info = {
     'number': 31,
-    'species': '**Nidoqueen** (**ニドクイン** **Nidokuin**)',
+    'species': '**Nidoqueen** (**ニドクイン** *Nidokuin*)',
     'types' : 'Poison | Ground',
     'pokedexEntry': 'Nidoqueen\'s body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.00, F: 1.00 },

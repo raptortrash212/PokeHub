@@ -1,6 +1,6 @@
 exports.info = {
     'number': 425,
-    'species': '**Drifloon** (**フワンテ** **Fuwante**)',
+    'species': '**Drifloon** (**フワンテ** *Fuwante*)',
     'types' : 'Ghost | Flying',
     'pokedexEntry': 'Its round body is stuffed with souls and expands each time it leads someone away. Wandering souls gathered together to form this Pokémon. When trying to make friends with children, Drifloon grabs them by the hand.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

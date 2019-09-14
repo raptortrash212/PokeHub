@@ -1,6 +1,6 @@
 exports.info = {
     'number': 426,
-    'species': '**Drifblim** (**フワライド** **Fuwaride**)',
+    'species': '**Drifblim** (**フワライド** *Fuwaride*)',
     'types' : 'Ghost | Flying',
     'pokedexEntry': 'There\'s a rumor that if you catch a Drifblim floating on the wind at dusk, you\'ll be carried away to the afterlife.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

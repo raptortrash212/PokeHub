@@ -1,6 +1,6 @@
 exports.info = {
     'number': 9,
-    'species': '**Blastoise** (**カメックス** Kamekkusu)',
+    'species': '**Blastoise** (**カメックス** *Kamekkusu*)',
     'types' : 'Water',
     'pokedexEntry': 'Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.875, F: 0.125 },

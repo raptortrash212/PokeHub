@@ -1,6 +1,6 @@
 exports.info = {
     'number': 26,
-    'species': '**Raichu** (**ライチュウ** **Raichu**)',
+    'species': '**Raichu** (**ライチュウ** *Raichuu*)',
     'types' : 'Electric',
     'pokedexEntry': 'As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity buildup is actually causing stress. Because so many Trainers like the way Pikachu looks, you don\'t see this Pokémon very often.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

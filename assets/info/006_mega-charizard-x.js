@@ -1,6 +1,6 @@
 exports.info = {
     'number': 6,
-    'species': '**Mega Charizard X** (**リザードン** Rizaadon)',
+    'species': '**Mega Charizard X** (**リザードン** *Rizaadon*)',
     'types' : 'Fire | Dragon',
     'pokedexEntry': 'The overwhelming power that fills its entire body causes it to turn black and create intense blue flames.\n\n*Dex entry from LGP/LGE*',
     'genderRatio': { M: 0.875, F: 0.125 },

@@ -1,6 +1,6 @@
 exports.info = {
     'number': 5,
-    'species': '**Charmeleon** (**リザード** Rizaado)',
+    'species': '**Charmeleon** (**リザード** *Rizaado*)',
     'types' : 'Fire',
     'pokedexEntry': 'Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.875, F: 0.125 },

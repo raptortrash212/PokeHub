@@ -1,6 +1,6 @@
 exports.info = {
     'number': 17,
-    'species': '**Pidgeotto** (**ピジョン** **Pigeon**)',
+    'species': '**Pidgeotto** (**ピジョン** *Pijon*)',
     'types' : 'Normal | Flying',
     'pokedexEntry': 'Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.5, F: 0.5 },

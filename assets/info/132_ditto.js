@@ -1,6 +1,6 @@
 exports.info = {
     'number': 132,
-    'species': '**Ditto** (**メタモン** **Metamon**)',
+    'species': '**Ditto** (**メタモン** *Metamon*)',
     'types' : 'Normal',
     'pokedexEntry': 'While it can transform into anything, each Ditto apparently has its own strengths and weaknesses when it comes to transformations. It transforms into whatever it sees. If the thing it\'s transforming into isn\'t right in front of it, Ditto relies on its memory—so sometimes it fails.\n\n*Dex entry from USUM*',
     'genderRatio': { m: 0, f: 0 },

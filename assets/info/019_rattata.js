@@ -1,6 +1,6 @@
 exports.info = {
     'number': 19,
-    'species': '**Rattata** (**コラッタ** **Koratta**)',
+    'species': '**Rattata** (**コラッタ** *Koratta*)',
     'types' : 'Normal',
     'pokedexEntry': 'Its incisors grow continuously throughout its life. If its incisors get too long, this Pokémon becomes unable to eat, and it starves to death.This Pokémon is common but hazardous. Its sharp incisors can easily cut right through hard wood.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

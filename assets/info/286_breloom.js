@@ -1,6 +1,6 @@
 exports.info = {
     'number': 286,
-    'species': '**Breloom** (**キノガッサ** **Kinogassa**)',
+    'species': '**Breloom** (**キノガッサ** *Kinogassa*)',
     'types' : 'Grass | Fighting',
     'pokedexEntry': 'Breloom closes in on its foe with light and sprightly footwork, then throws punches with its stretchy arms. This Pokémon\'s fighting technique puts boxers to shame. The seeds ringing Breloom\'s tail are made of hardened toxic spores. It is horrible to eat the seeds. Just taking a bite of this Pokémon\'s seed will cause your stomach to rumble.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.5, F: 0.5 },

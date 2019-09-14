@@ -1,6 +1,6 @@
 exports.info = {
     'number': 25,
-    'species': '**Pikachu** (**ピカチュウ** **Pikachu**)',
+    'species': '**Pikachu** (**ピカチュウ** *Pikachuu*)',
     'types' : 'Electric',
     'pokedexEntry': 'Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning. While sleeping, it generates electricity in the sacs in its cheeks. If it\'s not getting enough sleep, it will be able to use only weak electricity.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

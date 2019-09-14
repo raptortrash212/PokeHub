@@ -1,6 +1,6 @@
 exports.info = {
     'number': 77,
-    'species': '**Ponyta** (**ポニータ** **Ponyta**)',
+    'species': '**Ponyta** (**ポニータ** *Poniita*)',
     'types' : 'Fire',
     'pokedexEntry': 'Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.5, F: 0.5 },

@@ -1,6 +1,6 @@
 exports.info = {
     'number': 6,
-    'species': '**Charizard** (**リザードン** Rizaadon)',
+    'species': '**Charizard** (**リザードン** *Rizaadon*)',
     'types' : 'Fire | Flying',
     'pokedexEntry': 'Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.875, F: 0.125 },

@@ -1,6 +1,6 @@
 exports.info = {
     'number': 782,
-    'species': '**Jangmo-o** (**ジャラコ** **jyarako**)',
+    'species': '**Jangmo-o** (**ジャラコ** *Jyarako*)',
     'types' : 'Dragon',
     'pokedexEntry': 'It smacks the scales on its head against rocks or against the ground to frighten its opponents. It can also contact its friends with these noises. It will never show an enemy its back in battle. Ancient warriors liked Jangmo-o for its valiant disposition and made it one of their own.\n\n*Dex entry from USUM*',
     'genderRatio': { M: 0.5, F: 0.5 },

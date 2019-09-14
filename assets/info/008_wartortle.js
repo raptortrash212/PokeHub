@@ -1,6 +1,6 @@
 exports.info = {
     'number': 8,
-    'species': '**Wartortle** (**カメール** Kameeru)',
+    'species': '**Wartortle** (**カメール** *Kameeru*)',
     'types' : 'Water',
     'pokedexEntry': 'Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon\'s toughness as a battler.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.875, F: 0.125 },
