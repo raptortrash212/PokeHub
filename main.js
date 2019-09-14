@@ -1,4 +1,3 @@
-require('newrelic');
 const Client = require('./src/client.js');
 
 const client = new Client();
