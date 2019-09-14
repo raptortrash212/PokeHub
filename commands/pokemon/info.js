@@ -50,8 +50,8 @@ class InfoCommand extends Command {
         let pokeObj;
 
         // Female or Male Pokemon (needs to be seperate)
-        if (pokemonName[pokemonName.length - 1] == 'f' || pokemonName[pokemonName.length - 1] == 'm') {
-            if (pokemonName[pokemonName.length - 1] == 'm') {
+        if (pokemonName[pokemonName.length - 1] == 'F' || pokemonName[pokemonName.length - 1] == 'M') {
+            if (pokemonName[pokemonName.length - 1] == 'M') {
                 pokemonName = pokemonName.toLowerCase().slice(0, pokemonName.length - 1);
                 r = await get(`https://pokeapi.co/api/v2/pokemon/${pokemonName}-m`);
                 pokeObj = r.body;
