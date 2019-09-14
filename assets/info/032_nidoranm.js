@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 32,
+    'species': '**Nidoran♂** (**ニドラン♂** *Nidoran♂*)',
+    'types' : 'Poison',
+    'pokedexEntry': 'Nidoran♂ has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon\'s notice.\n\n*Dex entry from ORAS*',
+    'genderRatio': { M: 1.00, F: 0.00 },
+    'catchRate': { integer: 235, percentage: '41.3%' },
+    'baseStats': { hp: 46, atk: 57, def: 40, spAtk: 40, spDef: 40, spd: 50 },
+    'abilities': { 0: 'Poison Point *OR* Rivalry', 'H': 'Hustle' },
+    'height': 0.5,
+    'weight': 19.8,
+    'colorHex': '#E0B1DF',
+    'colorHexShiny': '#D5F5FE',
+    'color': 'Very Soft Magenta',
+    'colorShiny': 'Light Grayish Cyan',
+    'evolvesTo': { species: 'Nidorino', level: '16', triggeredBy: 'Levelling Up' },
+    'eggGroups': ['Monster', 'Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'http://play.pokemonshowdown.com/sprites/xyani/nidoranm.gif',
+    'gifShiny': 'http://play.pokemonshowdown.com/sprites/xyani-shiny/nidoranm.gif',
+    'legendary': false,
+    'mythical': false
+};
