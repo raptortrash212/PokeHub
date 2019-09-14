@@ -9,7 +9,7 @@ exports.info = {
     'abilities': { 0: 'Poison Point *OR* Rivalry', 'H': 'Hustle' },
     'height': 0.8,
     'weight': 20.0,
-    'colorHex': '#C3E8ED', 
+    'colorHex': '#C3E8ED',
     'colorHexShiny': '#EDB3E2',
     'color': 'Light Grayish Cyan',
     'colorShiny': 'Very Soft Magenta',

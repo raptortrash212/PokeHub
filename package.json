@@ -21,7 +21,6 @@
     "discord-akairo": "github:discord-akairo/discord-akairo",
     "discord.js": "github:discordjs/discord.js",
     "eslint": "^6.3.0",
-    "newrelic": "^5.11.0",
     "snekfetch": "^4.0.4",
     "superagent": "^5.1.0"
   }
