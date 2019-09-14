@@ -9,16 +9,16 @@ exports.info = {
     'abilities': { 0: 'Poison Point *OR* Rivalry', 'H': 'Hustle' },
     'height': 0.8,
     'weight': 20.0,
-    'colorHex': 'Use a colour selector and find the lightest colour.', 
-    'colorHexShiny': 'Same as above.',
-    'color': 'Use colorhexa to get a description', // https://www.colorhexa.com/
-    'colorShiny': 'Same here',
+    'colorHex': '#C3E8ED', 
+    'colorHexShiny': '#EDB3E2',
+    'color': 'Light Grayish Cyan',
+    'colorShiny': 'Very Soft Magenta',
     'evolvesFrom': { species: 'NidoranF', level: '16', triggeredBy: 'Levelling Up' },
     'evolvesTo': { species: 'Nidoqueen', level: null, triggeredBy: 'Item Use (Moon Stone)' },
     'eggGroups': ['Undiscovered'],
     'hatchTime': '5140 - 5396 steps',
     'gif': 'http://play.pokemonshowdown.com/sprites/xyani/nidorina.gif',
     'gifShiny': 'http://play.pokemonshowdown.com/sprites/xyani-shiny/nidorina.gif',
-    'legendary': false, // true OR false
+    'legendary': false,
     'mythical': false
 };
