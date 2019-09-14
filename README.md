@@ -1,6 +1,6 @@
 # PokeHub - Discord Bot
 
-Logo Here
+![](https://cdn.discordapp.com/attachments/611564683031216146/622544584144322570/wide_logo.png)
 
 ![](https://img.shields.io/github/stars/Strikerrr/PokeHub.svg) ![](https://img.shields.io/github/forks/Strikerrr/PokeHub.svg) ![](https://img.shields.io/github/issues/Strikerrr/PokeHub.svg) ![](https://img.shields.io/github/issues-pr/Strikerrr/PokeHub.svg) 
 
