@@ -8,7 +8,7 @@ exports.info = {
     'baseStats': { hp: 90, atk: 82, def: 87, spAtk: 75, spDef: 85, spd: 76 },
     'abilities': { 0: 'Poison Point *OR* Rivalry', 'H': 'Sheer Force' },
     'height': 1.3,
-    'weight': 60.0,
+    'weight': 132.3,
     'colorHex': '#A7D4F5',
     'colorHexShiny': '#B3C994',
     'color': 'Very Soft Blue',

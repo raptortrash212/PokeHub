@@ -1,6 +1,6 @@
 exports.info = {
     'number': 30,
-    'species': '**Nidorina** (**ニドリーナ** *Nidorina*)',
+    'species': '**Nidorina** (**ニドリーナ** *Nidoriina*)',
     'types' : 'Poison',
     'pokedexEntry': '	When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.\n\n*Dex entry from ORAS*',
     'genderRatio': { M: 0.00, F: 1.00 },
@@ -8,7 +8,7 @@ exports.info = {
     'baseStats': { hp: 70, atk: 62, def: 67, spAtk: 55, spDef: 55, spd: 56 },
     'abilities': { 0: 'Poison Point *OR* Rivalry', 'H': 'Hustle' },
     'height': 0.8,
-    'weight': 20.0,
+    'weight': 44.1,
     'colorHex': '#C3E8ED',
     'colorHexShiny': '#EDB3E2',
     'color': 'Light Grayish Cyan',
