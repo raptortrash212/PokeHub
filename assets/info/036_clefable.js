@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 36,
+    'species': '**Clefable** (**ピクシー** *Pikushii*)',
+    'types' : 'Fairy',
+    'pokedexEntry': 'Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step even lets it walk on water. It is known to take strolls on lakes on quiet, moonlit nights.\n\n*Dex entry from ORAS*',
+    'genderRatio': { M: 0.25, F: 0.75 },
+    'catchRate': { integer: 25, percentage: '7.7%' },
+    'baseStats': { hp: 95, atk: 70, def: 73, spAtk: 85, spDef: 90, spd: 60 },
+    'abilities': { 0: 'Cute Charm *OR* Magic Guard', 'H': 'Unaware' },
+    'height': 1.3,
+    'weight': 88.2,
+    'colorHex': '#FFE4DC',
+    'colorHexShiny': '#FFF3F3',
+    'color': 'Very Pale Red [Pink Tone]',
+    'colorShiny': 'Very Pale (Mostly White) Red',
+    'evolvesFrom': { species: 'Clefairy', level: null, triggeredBy: 'Item Use (Moon Stone)' },
+    'eggGroups': ['Egg', 'Group'],
+    'hatchTime': '100 - 1000 steps',
+    'gif': 'http://play.pokemonshowdown.com/sprites/xyani/clefable.gif',
+    'gifShiny': 'http://play.pokemonshowdown.com/sprites/xyani-shiny/clefable.gif',
+    'legendary': false,
+    'mythical': false
+};
