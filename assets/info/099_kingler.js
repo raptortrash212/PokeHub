@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 99, 
+    'species': '**Kingler** (**キングラー** *Kingler*)', 
+    'types' : 'Water',
+    'pokedexEntry': 'Kingler has an enormous, oversized claw. It waves this huge claw in the air to communicate with others. However, because the claw is so heavy, the Pokémon quickly tires.\n\n*Dex entry from ORAS*', 
+    'genderRatio': { M: 0.5, F: 0.5 }, 
+    'catchRate': { integer: 60, percentage: '14.8%' }, 
+    'baseStats': { hp: 55, atk: 130, def: 115, spAtk: 50, spDef: 50, spd: 75 }, 
+    'abilities': { 0: 'Hyper Cutter *or* Shell Armor', 'H': 'Sheer Force' },
+    'height': 1.3, 
+    'weight': 132.3, 
+    'colorHex': '#F29B62', 
+    'colorHexShiny': '#98AE87',
+    'color': 'Soft Orange', 
+    'colorShiny': 'Dark Grayish Green',
+    'evolvesFrom': { species: 'Krabby', level: 28, triggeredBy: 'Levelling Up' },
+    'eggGroups': ['Water 3'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/kingler.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/kingler.gif',
+    'legendary': false, 
+    'mythical': false
+};
