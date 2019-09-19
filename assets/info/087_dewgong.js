@@ -2,7 +2,7 @@ exports.info = {
     'number': 87, 
     'species': '**Dewgong** (**ジュゴン** *Jugon*)', 
     'types' : 'Water | Ice',
-    'pokedexEntry': 'Dewgong loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.\n\n*Dex entry from ORAS*', \
+    'pokedexEntry': 'Dewgong loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.\n\n*Dex entry from ORAS*', 
     'genderRatio': { M: 0.5, F: 0.5 }, 
     'catchRate': { integer: 75, percentage: '17.5%' }, 
     'baseStats': { hp: 90, atk: 70, def: 80, spAtk: 70, spDef: 95, spd: 70 }, 
