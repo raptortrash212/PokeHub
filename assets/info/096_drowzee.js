@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 96, 
+    'species': '**Drowzee** (**スリープ** *Sleepe*)', 
+    'types' : 'Psychic',
+    'pokedexEntry': 'It can be spotted near recreational facilities, intending to eat the pleasant dreams of children who enjoyed themselves there that day. It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn\'t particularly like eating them.\n\n*Dex entry from USUM*', 
+    'genderRatio': { M: 0.5, F: 0.5 }, 
+    'catchRate': { integer: 190, percentage: '35.2%' }, 
+    'baseStats': { hp: 60, atk: 48, def: 45, spAtk: 43, spDef: 90, spd: 42 }, 
+    'abilities': { 0: 'Insomnia *or* Forewarn	', 'H': 'Inner Focus' },
+    'height': 1.0, 
+    'weight': 71.4, 
+    'colorHex': '#FEE847', 
+    'colorHexShiny': '#E2C0C6',
+    'color': 'Bright Yellow', 
+    'colorShiny': 'Light Grayish Red',
+    'evolvesTo': { species: 'Hypno', level: '26', triggeredBy: 'Levelling Up' }, 
+    'eggGroups': ['Human-Like'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/drowzee.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/drowzee.gif',
+    'legendary': false, 
+    'mythical': false
+};
