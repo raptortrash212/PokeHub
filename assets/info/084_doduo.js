@@ -16,8 +16,8 @@ exports.info = {
     'evolvesTo': { species: 'Dodrio', level: '31', triggeredBy: 'Levelling Up' }, 
     'eggGroups': ['Flying'],
     'hatchTime': '5140 - 5396 steps',
-    'gif': 'http://play.pokemonshowdown.com/sprites/xyani/pokemonName.gif', 
-    'gifShiny': 'http://play.pokemonshowdown.com/sprites/xyani-shiny/pokemonName.gif',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/doduo.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/doduo.gif',
     'legendary': false, 
     'mythical': false
 };
