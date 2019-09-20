@@ -162,10 +162,10 @@ class InfoCommand extends Command {
         pokemonInfoEmbed.addField('PokeDex Entry', pokemonObject.pokedexEntry, true);
 
         // Adding gender ratio
-        let genRatio = `Male: ${pokemonObject.genderRatio.M * 100}%\nFemale: ${pokemonObject.genderRatio.F * 100}%`;
+        const genRatio = `Male: ${pokemonObject.genderRatio.M * 100}%\nFemale: ${pokemonObject.genderRatio.F * 100}%`;
         
         if (pokemonObject.genderRatio.M == 0 || pokemonObject.genderRatio.M == 0.00 || pokemonObject.genderRatio.F == 0 || pokemonObject.genderRatio.F == 0.00) {
-                    pokemonInfoEmbed.addField('Gender Ratio', `This Pokemon is genderless`, true); // Genderless
+                    pokemonInfoEmbed.addField('Gender Ratio', 'This Pokemon is genderless', true); // Genderless
         } else pokemonInfoEmbed.addField('Gender Ratio', genRatio, true); // Normal Gender ratio
 
         // Adding catch rate
