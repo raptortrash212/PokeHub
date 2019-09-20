@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 101, 
+    'species': '**Electrode** (**マルマイン** *Marumine*)', 
+    'types' : 'Electric',
+    'pokedexEntry': 'Electrode eats electricity in the atmosphere. On days when lightning strikes, you can see this Pokémon exploding all over the place from eating too much electricity. One of Electrode\'s characteristics is its attraction to electricity. It is a problematical Pokémon that congregates mostly at electrical power plants to feed on electricity that has just been generated.\n\n*Dex entry from ORAS*', 
+    'genderRatio': { 'Genderless' }, 
+    'catchRate': { integer: 60, percentage: '14.8%' }, 
+    'baseStats': { hp: 60, atk: 50, def: 70, spAtk: 80, spDef: 80, spd: 150 }, 
+    'abilities': { 0: 'Soundproof (or* Static', 'H': 'Aftermath' },
+    'height': 1.2, 
+    'weight': 146.8, 
+    'colorHex': '#E49488', 
+    'colorHexShiny': '#4884ED',
+    'color': 'Very Soft Red', 
+    'colorShiny': 'Soft Blue',
+    'evolvesFrom': { species: 'Voltorb', level: 30, triggeredBy: 'Levelling Up' },
+    'eggGroups': ['Mineral'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/electrode.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/electrode.gif',
+    'legendary': false, 
+    'mythical': false
+};
