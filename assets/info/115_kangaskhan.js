@@ -2,7 +2,7 @@ exports.info = {
     'number': 115, 
     'species': '**Kangaskhan** (**ガルーラ** *Garura*)', 
     'types' : 'Normal',
-    'pokedexEntry': 'Kangaskhan protects its child by keeping it in its pouch. It has zero forgiveness for those who harm its child and will beat them down. You shouldn't get close to the child when it's playing outside its mother\'s pouch. Its mother is always nearby watching over it.\n\n*Dex entry from USUM*', 
+    'pokedexEntry': 'Kangaskhan protects its child by keeping it in its pouch. It has zero forgiveness for those who harm its child and will beat them down. You shouldn\'t get close to the child when it\'s playing outside its mother\'s pouch. Its mother is always nearby watching over it.\n\n*Dex entry from USUM*', 
     'genderRatio': { M: 0.000, F: 1.000 }, 
     'catchRate': { integer: 45, percentage: '11.9%' }, 
     'baseStats': { hp: 105, atk: 95, def: 80, spAtk: 40, spDef: 80, spd: 90 }, 
