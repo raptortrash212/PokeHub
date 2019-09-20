@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 118, 
+    'species': '**Goldeen** (**トサキント** *Tosakinto*)',
+    'types' : 'Water',
+    'pokedexEntry': 'Although known for their splendid tail fins, Goldeen apparently compete among themselves to see whose horn is thickest and sharpest. The way it swims along fluttering its dress-like fins has earned it the name “princess of the water.”\n\n*Dex entry from USUM*', 
+    'genderRatio': { M: 0.5, F: 0.5 }, 
+    'catchRate': { integer: 225, percentage: '39.9%' }, 
+    'baseStats': { hp: 45, atk: 67, def: 60, spAtk: 35, spDef: 50, spd: 63 }, 
+    'abilities': { 0: 'Swift Swim *or* Water Veil', 'H': 'Lightning Rod' },
+    'height': 0.6, 
+    'weight': 33.1, 
+    'colorHex': '#EF8A65', 
+    'colorHexShiny': '#FBAF4F',
+    'color': 'Soft Orange', 
+    'colorShiny': 'Soft Orange',
+    'evolvesTo': { species: 'Seaking', level: '33', triggeredBy: 'Levelling Up' }, 
+    'eggGroups': ['Water 2'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/goldeen.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/goldeen.gif',
+    'legendary': false, 
+    'mythical': false
+};
