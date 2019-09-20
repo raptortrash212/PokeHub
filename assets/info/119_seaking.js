@@ -2,7 +2,7 @@ exports.info = {
     'number': 119, 
     'species': '**Seaking** (**アズマオウ** *Azumao*)', 
     'types' : 'Water',
-    'pokedexEntry': '	In the autumn, Seaking males can be seen performing courtship dances in riverbeds to woo females. During this season, this Pokémon's body coloration is at its most beautiful. Seaking is very protective of its eggs. The male and female will take turns patrolling around their nest and eggs. The guarding of eggs by these Pokémon goes on for over a month.\n\n*Dex entry from ORAS*', 
+    'pokedexEntry': 'In the autumn, Seaking males can be seen performing courtship dances in riverbeds to woo females. During this season, this Pokémon\'s body coloration is at its most beautiful. Seaking is very protective of its eggs. The male and female will take turns patrolling around their nest and eggs. The guarding of eggs by these Pokémon goes on for over a month.\n\n*Dex entry from ORAS*', 
     'genderRatio': { M: 0.5, F: 0.5 }, 
     'catchRate': { integer: 60, percentage: '14.8%' }, 
     'baseStats': { hp: 80, atk: 92, def: 65, spAtk: 65, spDef: 80, spd: 68 }, 
