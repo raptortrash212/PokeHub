@@ -81,10 +81,10 @@ class InfoCommand extends Command {
         const pkmnFetcher = new pokemonFetcher(argss);
 
         // Reg Shiny
-        pokemonObject = pkmnFetcher.normalShiny(pokemonNameLower, PID);
+        if (pkmnFetcher.checkNormalShiny(pokemonNameLower) == true) pokemonObject = pkmnFetcher.normalShiny(pokemonNameLower, PID);
 
         // Reg Pokemon
-        pokemonObject = pkmnFetcher.normalPokemon(pokemonNameLower, PID);
+        if (pkmnFetcher.checkNormalPokemon() == true) pokemonObject = pkmnFetcher.normalPokemon(pokemonNameLower, PID);
 
         // Other Forms
         if (forms.includes(argss[0].toLowerCase()) == true && argss[0].toLowerCase() != 'shiny' && !argss[2] && !args[3]) {
