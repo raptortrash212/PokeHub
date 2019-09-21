@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 37,
+    'species': '**Vulpix** (**ロコン** *Rokon*)',
+    'types': 'Fire',
+    'pokedexEntry': 'Its beautiful tails have made it very popular. However, if it\'s not brushed diligently, it will be a mass of tangles before you know it. 	It manipulates balls of fire to catch its prey. If you raise one from when it\'s young, it will grow close to you like a puppy Pokémon.\n\n*Dex entry from USUM*',
+    'genderRatio': { M: 0.25, F: 0.75 },
+    'catchRate': { integer: 198, percentage: '35.2%' },
+    'baseStats': { hp: 38, atk: 41, def: 40, spAtk: 50, spDef: 65, spd: 65 },
+    'abilities': { 0: 'Flash Fire', 'H': 'Drought' },
+    'height': 0.6,
+    'weight': 21.8,
+    'colorHex': '#D69672',
+    'colorHexShiny': '#E1CF79',
+    'color': 'Slightly Desaturated Orange',
+    'colorShiny': 'Soft Yellow',
+    'evolvesTo': { species: 'Ninetales', level: null, triggeredBy: 'Item Use (Fire Stone)' },
+    'eggGroups': ['Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'http://play.pokemonshowdown.com/sprites/xyani/vulpix.gif',
+    'gifShiny': 'http://play.pokemonshowdown.com/sprites/xyani-shiny/vulpix.gif',
+    'legendary': false,
+    'mythical': false
+};

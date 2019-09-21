@@ -84,10 +84,10 @@ class InfoCommand extends Command {
         if (pkmnFetcher.checkNormalShiny(pokemonNameLower) == true) pokemonObject = pkmnFetcher.normalShiny(pokemonNameLower, PID);
 
         // Reg Pokemon
-        if (pkmnFetcher.checkNormalPokemon() == true) pokemonObject = pkmnFetcher.normalPokemon(pokemonNameLower, PID);
+        else if (pkmnFetcher.checkNormalPokemon() == true) pokemonObject = pkmnFetcher.normalPokemon(pokemonNameLower, PID);
 
         // Other Forms
-        if (forms.includes(argss[0].toLowerCase()) == true && argss[0].toLowerCase() != 'shiny' && !argss[2] && !args[3]) {
+        else if (forms.includes(argss[0].toLowerCase()) == true && argss[0].toLowerCase() != 'shiny' && !argss[2] && !args[3]) {
             pokemonObject = require(`../../assets/info/${PID}_${argss[0]}-${pokemonNameLower}.js`).info;
         }
 
