@@ -1,4 +1,5 @@
 // Import modules
+const { pokemonFetcher } = require('../../src/pokemonFetcher.js');
 const { Command } = require('discord-akairo');
 const { get } = require('snekfetch');
 
@@ -12,17 +13,16 @@ const { forms } = require('../../assets/formIndex');
 class InfoCommand extends Command {
     constructor() {
         super('info', {
-                category: 'pokemon',
-                aliases: ['info'],
-                typing: true,
-                args: [
-                    {
-                        id: 'pokemon',
-                        type: 'string',
-                        match: 'content'
-                    }
-                ]
-            });
+            category: 'pokemon',
+            aliases: ['info'],
+            typing: true,
+            args: [
+            {
+                id: 'pokemon',
+                type: 'string',
+                match: 'content'
+            }]
+        });
     }
 
     // Command execution func
@@ -36,7 +36,7 @@ class InfoCommand extends Command {
         // Pokemon name stuff
         let pokemonName;
         if (argss.length == 2) {
-             pokemonName = argss[1];
+            pokemonName = argss[1];
         } else if (argss.length == 3) {
             if (argss[0] != 'shiny') pokemonName = argss[1];
             else pokemonName = argss[2];
@@ -78,20 +78,16 @@ class InfoCommand extends Command {
 
         // Fetch Pokemon object
         let pokemonObject;
+        const pkmnFetcher = new pokemonFetcher(argss);
 
         // Reg Shiny
-        if (argss[0].toLowerCase() == 'shiny' && argss[1].toLowerCase() == pokemonNameLower && !args[2] && !args[3]) {
-            pokemonObject = require(`../../assets/info/${PID}_${pokemonNameLower}.js`).info;
-            console.log('Regular Shiny Poke');
-        }
-        // Reg
-        else if (argss[0].toLowerCase() != 'mega' && argss[0].toLowerCase() != 'shiny' && !argss[1] && !args[2] && !args[3]) {
-            pokemonObject = require(`../../assets/info/${PID}_${pokemonNameLower}.js`).info;
-            console.log('Regular Poke');
-        }
+        pokemonObject = pkmnFetcher.normalShiny(pokemonNameLower, PID);
+
+        // Reg Pokemon
+        pokemonObject = pkmnFetcher.normalPokemon(pokemonNameLower, PID);
 
         // Other Forms
-        else if (forms.includes(argss[0].toLowerCase()) == true && argss[0].toLowerCase() != 'shiny' && !argss[2] && !args[3]) {
+        if (forms.includes(argss[0].toLowerCase()) == true && argss[0].toLowerCase() != 'shiny' && !argss[2] && !args[3]) {
             pokemonObject = require(`../../assets/info/${PID}_${argss[0]}-${pokemonNameLower}.js`).info;
         }
 
@@ -163,9 +159,9 @@ class InfoCommand extends Command {
 
         // Adding gender ratio
         const genRatio = `Male: ${pokemonObject.genderRatio.M * 100}%\nFemale: ${pokemonObject.genderRatio.F * 100}%`;
-        
+
         if (pokemonObject.genderRatio.M == 0 || pokemonObject.genderRatio.M == 0.00 || pokemonObject.genderRatio.F == 0 || pokemonObject.genderRatio.F == 0.00) {
-                    pokemonInfoEmbed.addField('Gender Ratio', 'This Pokemon is genderless', true); // Genderless
+            pokemonInfoEmbed.addField('Gender Ratio', 'This Pokemon is genderless', true); // Genderless
         } else pokemonInfoEmbed.addField('Gender Ratio', genRatio, true); // Normal Gender ratio
 
         // Adding catch rate
@@ -175,19 +171,19 @@ class InfoCommand extends Command {
         let [abilityOne, abilityTwo, abilityHidden, abilityMega] = ['', '', '', ''];
 
         if (Object.keys(pokemonObject.abilities).length == 1) {
-             abilityOne = pokemonObject.abilities['0'];
+            abilityOne = pokemonObject.abilities['0'];
 
-             if (pokemonObject.abilities['M']) abilityMega = pokemonObject.abilities['M'];
+            if (pokemonObject.abilities['M']) abilityMega = pokemonObject.abilities['M'];
         }
 
         else if (Object.keys(pokemonObject.abilities).length == 2) {
-             abilityOne = pokemonObject.abilities['0'];
-             abilityHidden = pokemonObject.abilities['H'];
+            abilityOne = pokemonObject.abilities['0'];
+            abilityHidden = pokemonObject.abilities['H'];
 
-             if (pokemonObject.abilities['M']) abilityMega = pokemonObject.abilities['M'];
+            if (pokemonObject.abilities['M']) abilityMega = pokemonObject.abilities['M'];
 
-             abilityHidden = `*${abilityHidden}*`;
-             abilityMega = `**${abilityMega}**`;
+            abilityHidden = `*${abilityHidden}*`;
+            abilityMega = `**${abilityMega}**`;
         }
 
         else if (Object.keys(pokemonObject.abilities).length == 3) {
