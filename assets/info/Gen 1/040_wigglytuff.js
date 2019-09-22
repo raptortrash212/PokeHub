@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 40,
+    'species': '**Wigglytuff** (**プクリン** *Pukurin*)',
+    'types': 'Normal | Fairy',
+    'pokedexEntry': 'Thanks to its bouncy body and fine fur, this Pokémon is sought after. Holding one in your arms while you sleep feels great. When it gets angry, it inhales with all its might, and its body gradually inflates. Sometimes they can grow 20 times larger!\n\n*Dex entry from USUM*',
+    'genderRatio': { M: 0.25, F: 0.75 },
+    'catchRate': { integer: 50, percentage: '12.9%' },
+    'baseStats': { hp: 140, atk: 70, def: 45, spAtk: 85, spDef: 50, spd: 45 },
+    'abilities': { 0: 'Cute Charm *OR* Competitive', 'H': 'Frisk' },
+    'height': 1.0,
+    'weight': 26.5,
+    'colorHex': '#FFE7F0',
+    'colorHexShiny': '#FFE4FE',
+    'color': 'Very Pale (Mostly White) Pink',
+    'colorShiny': 'Very Pale Magenta',
+    'evolvesFrom': { species: 'Wigglytuff', level: null, triggeredBy: 'Item Use (Moon Stone)' },
+    'eggGroups': ['Fairy'],
+    'hatchTime': '2570 - 2826 steps',
+    'gif': 'http://play.pokemonshowdown.com/sprites/xyani/wigglytuff.gif',
+    'gifShiny': 'http://play.pokemonshowdown.com/sprites/xyani-shiny/wigglytuff.gif',
+    'legendary': false,
+    'mythical': false
+};
