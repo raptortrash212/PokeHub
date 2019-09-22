@@ -78,7 +78,7 @@ class InfoCommand extends Command {
 
         // Fetch Pokemon object
         let pokemonObject;
-        const pkmnFetcher = new pokemonFetcher(argss);
+        const pkmnFetcher = new pokemonFetcher(argss, pokeObj.id);
 
         // Reg Shiny
         if (pkmnFetcher.checkNormalShiny(pokemonNameLower) == true) pokemonObject = pkmnFetcher.normalShiny(pokemonNameLower, PID);
