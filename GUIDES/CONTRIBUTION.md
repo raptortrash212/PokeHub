@@ -25,7 +25,7 @@ GitHub is good because it allows you, as a contributor, to easily "fork" project
 So, go to [PokeHub](https://github.com/Strikerrr/PokeHub) and press **Fork**. This should then redirect you to what is now **YOUR** version of the project. The URL should be something like:
 > https://github.com/strikerrrr-alt/PokeHub
 
-Locate on your repository the **assets** folder. Click on it, then depending on what command you wish to add Assets to, click on that folder. We will be adding to **info**.
+Locate on your repository the **assets** folder. Click on it, then depending on what command you wish to add Assets to, click on that folder. We will be adding to **info**. For **info**, each Pokemon is split into the generations. Click on the appropriate Gen folder for your Pokemon you wish to add.
 
 # Making a file
 

@@ -87,39 +87,22 @@ class InfoCommand extends Command {
         else if (pkmnFetcher.checkNormalPokemon() == true) pokemonObject = pkmnFetcher.normalPokemon(pokemonNameLower, PID);
 
         // Other Forms
-        else if (forms.includes(argss[0].toLowerCase()) == true && argss[0].toLowerCase() != 'shiny' && !argss[2] && !args[3]) {
-            pokemonObject = require(`../../assets/info/${PID}_${argss[0]}-${pokemonNameLower}.js`).info;
-        }
+        else if (pkmnFetcher.checkOtherForms() == true) pokemonObject = pkmnFetcher.otherForms(pokemonNameLower, PID);
 
         // Other Forms Shiny
-        else if (argss[1] && forms.includes(argss[1].toLowerCase()) == true && argss[0].toLowerCase() == 'shiny' && !argss[2] && !args[3]) {
-            pokemonObject = require(`../../assets/info/${PID}_${argss[1]}-${pokemonNameLower}.js`).info;
-        }
+        else if (pkmnFetcher.checkOtherFormsShiny() == true) pokemonObject = pkmnFetcher.otherFormsShiny(pokemonNameLower, PID);
 
         // Mega
-        else if (argss[0].toLowerCase() != 'shiny' && argss[0].toLowerCase() == 'mega' && !argss[2] && !args[3]) {
-            pokemonObject = require(`../../assets/info/${PID}_${argss[0]}-${pokemonNameLower}.js`).info;
-            console.log('Mega');
-        }
+        else if (pkmnFetcher.checkNormalMega() == true) pokemonObject = pkmnFetcher.normalMega(pokemonNameLower, PID);
 
         // Shiny Mega
-        else if (argss[0].toLowerCase() == 'shiny' && argss[1].toLowerCase() == 'mega' && !argss[3]) {
-            pokemonObject = require(`../../assets/info/${PID}_${argss[1]}-${pokemonNameLower}.js`).info;
-            console.log('Shiny Mega');
-        }
+        else if (pkmnFetcher.checkShinyMega() == true) pokemonObject = pkmnFetcher.shinyMega(pokemonNameLower, PID);
 
         // Mega X/Y
-        else if (argss[2] && argss[2].toLowerCase() == 'x' || argss[2].toLowerCase() == 'y' && argss[0].toLowerCase() != 'shiny') {
-            pokemonObject = require(`../../assets/info/${PID}_${argss[0]}-${pokemonNameLower}-${argss[2]}.js`).info;
-            console.log('Mega X/Y');
-        }
+        else if (pkmnFetcher.checkNormalMegaXY() == true) pokemonObject = pkmnFetcher.normalMegaXY(pokemonNameLower, PID);
 
         // Shiny Mega X/Y
-        else if (argss[3] && argss[3].toLowerCase() == 'x' || argss[3].toLowerCase() == 'y' && argss[0].toLowerCase() == 'shiny') {
-            pokemonObject = require(`../../assets/info/${PID}_${argss[1]}-${pokemonNameLower}-${argss[3]}.js`).info;
-            console.log('Shiny Mega X/Y');
-        }
-
+        else if (pkmnFetcher.checkShinyMegaXY() == true) pokemonObject = pkmnFetcher.shinyMegaXY(pokemonNameLower, PID);
 
         // Other fetch time related variable
         const endTime = Date.now();

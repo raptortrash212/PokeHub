@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 98,
+    'species': '**Krabby** (**クラブ** *Crab*)',
+    'types' : 'Water',
+    'pokedexEntry': 'Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory.\n\n*Dex entry from ORAS*',
+    'genderRatio': { M: 0.5, F: 0.5 },
+    'catchRate': { integer: 225, percentage: '39.9%' },
+    'baseStats': { hp: 30, atk: 105, def: 90, spAtk: 25, spDef: 25, spd: 50 },
+    'abilities': { 0: 'Hyper Cutter *or* Shell Armor', 'H': 'Sheer Force' },
+    'height': 0.4,
+    'weight': 14.3,
+    'colorHex': '#FDAC6D',
+    'colorHexShiny': '#EAE384',
+    'color': 'Soft Orange',
+    'colorShiny': 'Very Soft Yellow',
+    'evolvesTo': { species: 'Kingler', level: '28', triggeredBy: 'Levelling Up' },
+    'eggGroups': ['Water 3'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/krabby.gif',
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/krabby.gif',
+    'legendary': false,
+    'mythical': false
+};

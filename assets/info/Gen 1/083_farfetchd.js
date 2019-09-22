@@ -1,0 +1,22 @@
+exports.info = {
+    'number': 83,
+    'species': '**Farfetch\'d** (**カモネギ** *Kamonegi*)',
+    'types' : 'Normal | Flying',
+    'pokedexEntry': 'Farfetch\'d is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokémon has been known to fight with others over stalks.\n\n*Dex entry from ORAS*',
+    'genderRatio': { M: 0.5, F: 0.5 },
+    'catchRate': { integer: 45, percentage: '11.9%' },
+    'baseStats': { hp: 52, atk: 90, def: 55, spAtk: 58, spDef: 62, spd: 60 },
+    'abilities': { 0: 'Keen Eye *or* Inner Focus', 'H': 'Defiant' },
+    'height': 0.8,
+    'weight': 33.1,
+    'colorHex': '#C5B0A7',
+    'colorHexShiny': '#EFAEA2',
+    'color': 'Grayish Orange',
+    'colorShiny': 'Very Soft Red',
+    'eggGroups': ['Flying and Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/farfetchd.gif',
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/farfetchd.gif',
+    'legendary': false,
+    'mythical': false
+};

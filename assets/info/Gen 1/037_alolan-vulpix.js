@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 37,
+    'species': '**Alolan Vulpix** (**アローラロコン** *Alola Rokon*)',
+    'types': 'Ice',
+    'pokedexEntry': 'If you carelessly approach it because it\'s cute, the boss of the pack, Ninetales, will appear and freeze you. They live together in a skulk, helping one another. Before eating their prey, they freeze it solid with their –58 degree Fahrenheit breath.\n\n*Dex entry from USUM*',
+    'genderRatio': { M: 0.25, F: 0.75 },
+    'catchRate': { integer: 198, percentage: '35.2%' },
+    'baseStats': { hp: 38, atk: 41, def: 40, spAtk: 50, spDef: 65, spd: 65 },
+    'abilities': { 0: 'Snow Cloak', 'H': 'Snow Warming' },
+    'height': 0.6,
+    'weight': 21.8,
+    'colorHex': '#FEFEFE',
+    'colorHexShiny': '#FBFBFB',
+    'color': 'Very Light Grey (Mostly White)',
+    'colorShiny': 'Very Light Grey (Mostly White)',
+    'evolvesTo': { species: 'Alolan Ninetales', level: null, triggeredBy: 'Item Use (Ice Stone)' },
+    'eggGroups': ['Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'http://play.pokemonshowdown.com/sprites/xyani/vulpix-alola.gif',
+    'gifShiny': 'http://play.pokemonshowdown.com/sprites/xyani-shiny/vulpix-alola.gif',
+    'legendary': false,
+    'mythical': false
+};
