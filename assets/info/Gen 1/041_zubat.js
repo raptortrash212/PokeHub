@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 41,
+    'species': '**Zubat** (**ズバット** *Zubatto*)',
+    'types': 'Poison | Flying',
+    'pokedexEntry': 'It has no eyeballs, so it can\'t see. It checks its surroundings via the ultrasonic waves it emits from its mouth. Their skin is so thin that they\'ll be burned if sunlight hits them. When it gets cold out, they gather together to warm one another\'s bodies.\n\n*Dex entry from USUM*',
+    'genderRatio': { M: 0.5, F: 0.5 },
+    'catchRate': { integer: 255, percentage: '43.9%' },
+    'baseStats': { hp: 40, atk: 45, def: 35, spAtk:30, spDef: 40, spd: 55 },
+    'abilities': { 0: 'Inner Focus', 'H': 'Infiltrator' },
+    'height': 0.8,
+    'weight': 16.5,
+    'colorHex': '#53A8D5',
+    'colorHexShiny': '#83CA40',
+    'color': 'Moderate Blue',
+    'colorShiny': 'Moderate Green',
+    'evolvesTo': { species: 'Golbat', level: '22', triggeredBy: 'Levelling Up' },
+    'eggGroups': ['Flying'],
+    'hatchTime': '3855 - 4111 steps',
+    'gif': 'http://play.pokemonshowdown.com/sprites/xyani/zubat.gif',
+    'gifShiny': 'http://play.pokemonshowdown.com/sprites/xyani-shiny/zubat.gif',
+    'legendary': false,
+    'mythical': false
+};
