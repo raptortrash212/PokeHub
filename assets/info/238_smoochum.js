@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 238, 
+    'species': '**Smoochum** (**ムチュール** *Muchul*)', 
+    'types' : 'Ice | Psychic',
+    'pokedexEntry': When it examines things, before touching them with its hands, it makes lip contact and then diligently licks all the dirt off its lips. Highly perceptive sensors, Smoochum's lips are kept moist by its daily application of tree sap.\n\n*Dex entry from USUM*', 
+    'genderRatio': { M: 0.000, F: 1.000 }, 
+    'catchRate': { integer: 45, percentage: '11.9%' }, 
+    'baseStats': { hp: 45, atk: 30, def: 15, spAtk: 85, spDef: 65, spd: 65 }, 
+    'abilities': { 0: 'Oblivious *or* Forewarn', 'H': 'Hydration' },
+    'height': 0.4, 
+    'weight': 13.2, 
+    'colorHex': '#DE83A6', 
+    'colorHexShiny': '#FEB2B2',
+    'color': 'Very Soft Pink', 
+    'colorShiny': 'Very Soft Red',
+    'evolvesTo': { species: 'Jynx', level: '30', triggeredBy: 'Levelling Up' }, 
+    'eggGroups': ['Undiscovered'],
+    'hatchTime': '6425 - 6681 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/smoochum.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/smoochum.gif',
+    'legendary': false, 
+    'mythical': false
+};
