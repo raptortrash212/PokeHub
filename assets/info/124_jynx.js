@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 124, 
+    'species': '**Jynx** (**ルージュラ** *Rougela*)', 
+    'types' : 'Ice | Psychic',
+    'pokedexEntry': 'It sways its hips to a rhythm all its own. The precise movements of Jynx living in Alola are truly wonderful. Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing.\n\n*Dex entry from USUM*', 
+    'genderRatio': { M: 0.000, F: 1.000 }, 
+    'catchRate': { integer: 45, percentage: '11.9%' }, 
+    'baseStats': { hp: 65, atk: 50, def: 35, spAtk: 115, spDef: 95, spd: 95 }, 
+    'abilities': { 0: 'Oblivious *or* Forewarn', 'H': 'Dry Skin' },
+    'height': 1.4, 
+    'weight': 89.5, 
+    'colorHex': '#FB766C', 
+    'colorHexShiny': '#F57EC6',
+    'color': 'Soft Red', 
+    'colorShiny': 'Soft Pink',
+    'evolvesFrom': { species: 'Smoochum', level: 30, triggeredBy: 'Levelling Up' },
+    'eggGroups': ['Human-Like'],
+    'hatchTime': '6425 - 6681 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/jynx.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/jynx.gif',
+    'legendary': false, 
+    'mythical': false
+};
