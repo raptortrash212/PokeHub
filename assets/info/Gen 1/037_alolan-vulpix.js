@@ -6,7 +6,7 @@ exports.info = {
     'genderRatio': { M: 0.25, F: 0.75 },
     'catchRate': { integer: 198, percentage: '35.2%' },
     'baseStats': { hp: 38, atk: 41, def: 40, spAtk: 50, spDef: 65, spd: 65 },
-    'abilities': { 0: 'Snow Cloak', 'H': 'Snow Warming' },
+    'abilities': { 0: 'Snow Cloak', 'H': 'Snow Warning' },
     'height': 0.6,
     'weight': 21.8,
     'colorHex': '#FEFEFE',
