@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 51, 
+    'species': '**Dugtrio** (**ダグトリオ** *Dugtrio*)', 
+    'types' : 'Ground',
+    'pokedexEntry': 'While the three of them normally get along splendidly, on rare occasions a huge fight will break out over which head gets to eat first. Dugtrio\'s heads are sleek and smooth and incredibly hard. It can dig through any soil with its headbutts.\n\n*Dex entry from USUM*', 
+    'genderRatio': { M: 0.5, F: 0.5 }, 
+    'catchRate': { integer: 50, percentage: '12.9%' }, 
+    'baseStats': { hp: 35, atk: 100, def: 50, spAtk: 50, spDef: 70, spd: 120 }, 
+    'abilities': { 0: 'Sand Veil *or* Arena Trap', 'H': 'Sand Force' },
+    'height': 0.7, 
+    'weight': 73.4, 
+    'colorHex': '#FCCFEE', 
+    'colorHexShiny': '#92A5FC',
+    'color': 'Light Grayish Pink', 
+    'colorShiny': 'Very Soft Blue',
+    'evolvesFrom': { species: 'Diglett', level: 26, triggeredBy: 'Levelling Up' },
+    'eggGroups': ['Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/dugtrio.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/dugtrio.gif',
+    'legendary': false, 
+    'mythical': false
+};
