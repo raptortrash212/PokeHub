@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 52, 
+    'species': '**Meowth** (**ニャース** *Nyarth*)', 
+    'types' : 'Normal',
+    'pokedexEntry': 'When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects. It loves coins, so if you give it one, you can make friends with Meowth easily. But it's fickle, so you can't count on that friendship lasting.\n\n*Dex entry from USUM*', 
+    'genderRatio': { M: 0.5, F: 0.5 }, 
+    'catchRate': { integer: 255, percentage: '43.9%' }, 
+    'baseStats': { hp: 40, atk: 45, def: 35, spAtk: 40, spDef: 40, spd: 90 }, 
+    'abilities': { 0: 'Pickup *or* Technician', 'H': 'Unnerve' },
+    'height': 0.4, 
+    'weight': 9.3, 
+    'colorHex': '#F1ECD1', 
+    'colorHexShiny': '#E1D1A4',
+    'color': 'Light Grayish Yellow', 
+    'colorShiny': 'Very Soft Orange',
+    'evolvesTo': { species: 'Persian', level: '28', triggeredBy: 'Levelling Up' }, 
+    'eggGroups': ['Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/meowth.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/meowth.gif',
+    'legendary': false, 
+    'mythical': false
+};
