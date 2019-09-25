@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 750, 
+    'species': '**Mudsdale** (**バンバドロ** *Banbadoro*)', 
+    'types' : 'Ground',
+    'pokedexEntry': '	It remains calm and unmoving no matter the situation. It mixes dirt with the saliva in its mouth to make a special kind of mud. It can trudge mountain roads without rest for three days and three nights, all the while dragging a 10-ton load.\n\n*Dex entry from USUM*', 
+    'genderRatio': { M: 0.5, F: 0.5 }, 
+    'catchRate': { integer: 60, percentage: '14.8%' }, 
+    'baseStats': { hp: 100, atk: 125, def: 100, spAtk: 55, spDef: 85, spd: 35 }, 
+    'abilities': { 0: 'Own Tempo *or* Stamina	', 'H': 'Inner Focus' },
+    'height': 2.5, 
+    'weight': 2028.3, 
+    'colorHex': '#B3826C', 
+    'colorHexShiny': '#D59A2E',
+    'color': 'Slightly Desaturated Orange', 
+    'colorShiny': 'Strong Orange',
+    'evolvesFrom': { species: 'Mudbray', level: 30, triggeredBy: 'Levelling Up' },
+    'eggGroups': ['Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/mudsdale.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/mudsdale.gif',
+    'legendary': false, 
+    'mythical': false
+};
