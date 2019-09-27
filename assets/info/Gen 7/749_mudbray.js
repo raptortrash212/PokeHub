@@ -2,7 +2,7 @@ exports.info = {
     'number': 749, 
     'species': '**Mudbray** (**ドロバンコ** *Dorobanko*)', 
     'types' : 'Ground',
-    'pokedexEntry': 'It loves playing in the mud. If it isn't showered with mud on a daily basis, it gets stressed out and stops listening to its Trainer. Possessing mighty power, Mudbray can be loaded with 50 times its own body weight and will be totally fine.\n\n*Dex entry from USUM*', 
+    'pokedexEntry': 'It loves playing in the mud. If it isn\'t showered with mud on a daily basis, it gets stressed out and stops listening to its Trainer. Possessing mighty power, Mudbray can be loaded with 50 times its own body weight and will be totally fine.\n\n*Dex entry from USUM*', 
     'genderRatio': { M: 0.5, F: 0.5 }, 
     'catchRate': { integer: 10, percentage: '28.0%' }, // Can find on Bulbapedia
     'baseStats': { hp: 70, atk: 100, def: 70, spAtk: 45, spDef: 55, spd: 45 }, 
