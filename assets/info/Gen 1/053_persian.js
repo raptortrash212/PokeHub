@@ -2,7 +2,7 @@ exports.info = {
     'number': 53, 
     'species': '**Persian** (**ペルシアン** *Persian*)', 
     'types' : 'Normal',
-    'pokedexEntry': 'Although the jewel on its forehead appears to be a different color than those of Alolan Persian, it\'s mostly made of the same material. This Pokémon is popular with rich people. It's also targeted by hunters who are after the jewel in its forehead.\n\n*Dex entry from USUM*', 
+    'pokedexEntry': 'Although the jewel on its forehead appears to be a different color than those of Alolan Persian, it\'s mostly made of the same material. This Pokémon is popular with rich people. It\'s also targeted by hunters who are after the jewel in its forehead.\n\n*Dex entry from USUM*', 
     'genderRatio': { M: 0.5, F: 0.5 }, 
     'catchRate': { integer: 90, percentage: '20.1%' }, 
     'baseStats': { hp: 65, atk: 70, def: 60, spAtk: 65, spDef: 65, spd: 115 }, 
