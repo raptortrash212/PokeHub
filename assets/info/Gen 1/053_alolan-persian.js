@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 53, 
+    'species': '**Alolan Persian** (**ペルシアン** *Persian*)', 
+    'types' : 'Dark',
+    'pokedexEntry': 'In contrast to its lovely face, it\'s so brutal that it tortures its weakened prey rather than finishing them off. Its round face is a symbol of wealth. Persian that have bigger, plumper faces are considered more beautiful.\n\n*Dex entry from USUM*', 
+    'genderRatio': { M: 0.5, F: 0.5 }, 
+    'catchRate': { integer: 90, percentage: '20.1%' }, 
+    'baseStats': { hp: 65, atk: 60, def: 60, spAtk: 75, spDef: 65, spd: 115 }, 
+    'abilities': { 0: 'Fur Coat *or* Technician', 'H': 'Rattled' },
+    'height': 1.1, 
+    'weight': 72.8, 
+    'colorHex': '#D2D8EF', 
+    'colorHexShiny': '#829DD3',
+    'color': 'Light Grayish Blue', 
+    'colorShiny': 'Slightly Desaturated Blue',
+    'evolvesFrom': { species: 'Alolan Meowth', level: null, triggeredBy: 'High Friendship' },
+    'eggGroups': ['Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/persian-alola.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/persian-alola.gif',
+    'legendary': false, 
+    'mythical': false
+};
