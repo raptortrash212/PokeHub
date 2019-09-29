@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 52, 
+    'species': '**Alolan Meowth** (**ニャース** *Nyarth*)', 
+    'types' : 'Dark',
+    'pokedexEntry': 'It\'s impulsive, selfish, and fickle. It\'s very popular with some Trainers who like giving it the attention it needs. A royal house that flourished in the distant past brought it here from another region. Meowth is both selfish and prideful.\n\n*Dex entry from USUM*', 
+    'genderRatio': { M: 0.5, F: 0.5 }, 
+    'catchRate': { integer: 255, percentage: '43.9%' }, 
+    'baseStats': { hp: 40, atk: 35, def: 35, spAtk: 50, spDef: 40, spd: 90 }, 
+    'abilities': { 0: 'Pickup or Technician', 'H': 'Rattled' },
+    'height': 0.4, 
+    'weight': 9.3, 
+    'colorHex': '#D2D8EF', 
+    'colorHexShiny': '#829DD3',
+    'color': 'Light Grayish Blue', 
+    'colorShiny': 'Slightly Desaturated Blue',
+    'evolvesTo': { species: 'Alolan Persian', level: null, triggeredBy: 'High Friendship' }, 
+    'eggGroups': ['Field'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/meowth-alola.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/meowth-alola.gif',
+    'legendary': false, 
+    'mythical': false
+};
