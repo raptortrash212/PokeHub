@@ -1,0 +1,22 @@
+exports.info = {
+    'number': 151, 
+    'species': '**Mew** (**ミュウ** *Mew*)', 
+    'types' : 'Psychic',
+    'pokedexEntry': 'Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.\n\n*ORAS*', 
+    'genderRatio': { Genderless }, 
+    'catchRate': { integer: 45, percentage: '11.9%' }, 
+    'baseStats': { hp: 100, atk: 100, def: 100, spAtk: 100, spDef: 100, spd: 100 }, 
+    'abilities': { 0: 'Synchronize' },
+    'height': 0.4, 
+    'weight': 8.8, 
+    'colorHex': '#FED5E5', 
+    'colorHexShiny': '#BAF3FE',
+    'color': 'Light Grayish Pink', 
+    'colorShiny': 'Very Soft Cyan',
+    'eggGroups': ['Undiscovered'],
+    'hatchTime': '30840 - 31096 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/xyani/mew.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/xyani-shiny/mew.gif',
+    'legendary': false, 
+    'mythical': true
+};
