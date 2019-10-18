@@ -1,0 +1,23 @@
+exports.info = {
+    'number': 43, 
+    'species': '**Oddish** (**ナゾノクサ** *Nazonokusa*)', 
+    'types' : 'Grass | Poison',
+    'pokedexEntry': 'During the daytime, Oddish buries itself in soil to absorb nutrients from the ground using its entire body. The more fertile the soil, the glossier its leaves become. Oddish searches for fertile, nutrient-rich soil, then plants itself. During the daytime, while it is planted, this Pokémon's feet are thought to change shape and become similar to the roots of trees..\n\n*Dex entry from ORAS*', 
+    'genderRatio': { M: 0.5, F: 0.5 }, 
+    'catchRate': { integer: 255, percentage: '43.9%' }, 
+    'baseStats': { hp: 45, atk: 50, def: 55, spAtk: 75, spDef: 65, spd: 30 }, 
+    'abilities': { 0: 'Chlorophyll', 'H': 'Run Away' },
+    'height': 0.5, 
+    'weight': 11.9, 
+    'colorHex': '#5A89AD', 
+    'colorHexShiny': '#7CD653',
+    'color': 'Dark Moderate Blue', 
+    'colorShiny': 'Moderate',
+    'evolvesTo': { species: 'Gloom', level: '21', triggeredBy: 'Levelling Up' }, 
+    'eggGroups': ['Grass'],
+    'hatchTime': '5140 - 5396 steps',
+    'gif': 'https://play.pokemonshowdown.com/sprites/BACKUP-xyani/oddish.gif', 
+    'gifShiny': 'https://play.pokemonshowdown.com/sprites/BACKUP-xyani-shiny/oddish.gif',
+    'legendary': false, 
+    'mythical': false
+};
